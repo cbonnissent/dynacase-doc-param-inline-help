@@ -1,0 +1,9 @@
+book:
+    title: "Paramétrage de l'aide en ligne"
+    module: "Dynacase Platform"
+    version: "3.2"
+    edition: "1"
+    githubsrc: "https://github.com/Anakeen/dynacase-doc-param-inline-help"
+    chapters: 
+        - number:   "1"
+          content:  "introduction.md"
