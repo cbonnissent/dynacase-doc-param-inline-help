@@ -1,12 +1,14 @@
 # Mise en place d'une aide en ligne {#param-inline-help:9ec9fadc-3e1a-44d2-88da-fce576050b23}
 
-
 ## Création {#param-inline-help:9319af31-4f29-492f-949c-d8d26fa8990d}
 
 Une aide est constituée d'une nom, d'une description et d'une série de rubriques.
 
 Chaque rubrique peut être liée à un attribut spécifique si l'aide est liée à une famille.
-Lors de la création d'une rubrique, la `clé` de la rubrique vous est demandée : soit vous mettez le nom de l'attribut soit vous saisissez autre chose.
+Lors de la création d'une rubrique, la `clé` de la rubrique vous est demandée : 
+
+* soit vous saissez le nom de l'attribut;
+* soit vous saisissez autre chose.
 
 ### Aide liées à une famille {#param-inline-help:ae5d73ad-9cd1-493c-81d9-2a9651a20912}
 
@@ -16,11 +18,14 @@ Il est possible de créer une aide liée à une famille en cliquant sur `Créer 
 
 Si l'aide existe déjà, le menu propose simplement de modifier l'aide associée.
 
-_Remarque :_ une fois l'aide associée à cette famille, il est impossible de rompre ou de changer ce lien aide / famille.
+_Remarque :_ une fois l'aide associée à cette famille, il est impossible de modifier le lien aide / famille.
 
 Une aide est constituée d'une nom, d'une description et d'une série de rubriques.
 Chaque rubrique peut être liée à un attribut spécifique de la famille à laquelle est liée l'aide.
-Lors de la création d'une rubrique, la "clé" de la rubrique vous est demandée : soit vous mettez le nom de l'attribut soit vous saisissez autre chose.
+Lors de la création d'une rubrique, la "clé" de la rubrique vous est demandée : 
+
+* soit vous mettez le nom de l'attribut,
+* soit vous saisissez autre chose.
 
 ### Autonome {#param-inline-help:a7ad5cfb-8cc8-4dcd-bff7-47a877b77bd9}
 
@@ -28,7 +33,7 @@ Une aide est un document au sens dynacase, donc il est possible de créer une ai
 comme un document standard.
 
 Dans ce cas l'aide ne sera liée à aucune famille et ne pourra être liée à aucune famille par la suite
-(le lien aide / famille est quelque chose d'immuable et non modifiable).
+(le lien aide / famille est non modifiable).
 
 ## Modification {#param-inline-help:88a85370-6b44-4399-81f3-626c80f3f570}
 
@@ -53,13 +58,13 @@ La fenêtre de traduction est fermée.
 
 ## Ajout d'une rubrique {#param-inline-help:1237aeb1-797c-4619-9250-ebe8d4ad1dc0}
 
-L'ajout d'une rubrique est possible en utilisant le menu "Ajouter une rubrique". La rubrique est ajoutée (sans traduction) en début de la liste des rubriques existantes.
+L'ajout d'une rubrique est possible en utilisant le menu "Ajouter une rubrique". 
+La rubrique est ajoutée (sans traduction) en début de la liste des rubriques existantes.
 
 ## Organiser les rubriques {#param-inline-help:e63f2d0b-62e9-4ca1-bc37-5a7e62f27560}
 
 Il est possible d'organiser les rubriques dans l'ordre souhaité via les liens
 ![Organiser les rubriques](1000000000000085000000132E400656.png)
-
 
 
 ## Traduction des rubriques {#param-inline-help:d69a7f37-5b73-4e01-bfd5-342b1d881202}
@@ -86,6 +91,6 @@ car l'existence de la rubrique présuppose l'existence d'au moins une traduction
 Au sein des aides, il est possible de mettre des liens internes entre aides.
 Pour cela, il suffit simplement d'utiliser la syntaxe dynacase `[ADOC docid_aide#cle_rubrique]` ou bien `[ADOC nom_logique_aide#cle_rubrique]`.
 
-Sachant que dans le cas d'aide liée à une famille,  `cle_rubrique` sera probablement un nom d'attribut.
+Sachant que dans le cas d'aide liée à une famille, `cle_rubrique` est probablement un nom d'attribut.
 
 Vous pouvez omettre `#cle_rubrique` si vous souhaitez faire un lien vers l'aide en général et pas forcément vers une rubrique de celle-ci.

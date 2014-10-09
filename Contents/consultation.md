@@ -1,6 +1,5 @@
 # Utilisation de l'aide en ligne {#param-inline-help:aac09b97-f9c0-4740-9a8c-a74241bb1864}
 
-
 La fenêtre d'édition d'un document d'une famille liée à une aide met en évidence
 les attributs qui ont une aide via des liens.
 
@@ -15,7 +14,7 @@ On distingue plusieurs zones :
 
 1. Libellé de l'aide
 2. Liste des rubriques de l'aide, si vous cliquez sur une rubrique,
-   la zone à droite bouge de manière à vous placer sur cette rubrique
+   La zone à droite bouge de manière à vous placer sur cette rubrique
 3. Liste des aides disponibles, vous pouvez facilement changer d'aide en cliquant dans cette liste
 4. Libellé d'une rubrique (localisé selon le changement de langue en 7)
 5. Description de la rubrique (localisé selon le changement de langue en 7)
