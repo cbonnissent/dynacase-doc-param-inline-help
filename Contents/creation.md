@@ -10,7 +10,7 @@ Lors de la création d'une rubrique, la `clé` de la rubrique vous est demandée
 
 ### Aide liées à une famille {#param-inline-help:ae5d73ad-9cd1-493c-81d9-2a9651a20912}
 
-Il est possible de créer une aide liée à une famille en cliquant sur "Créer une aide" depuis le document de la famille concernée.
+Il est possible de créer une aide liée à une famille en cliquant sur `Créer une aide` depuis le document de la famille concernée.
 
 ![Création d'une aide à partir d'une famille](1000000000000295000000CBF88435E6.png)
 

@@ -7,3 +7,9 @@ book:
     chapters: 
         - number:   "1"
           content:  "introduction.md"
+        - number:   "2"
+          content:  "parametrage.md"
+        - number:   "3"
+          content:  "creation.md"
+        - number:   "4"
+          content:  "consultation.md"
